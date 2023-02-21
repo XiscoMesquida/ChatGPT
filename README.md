@@ -1,4 +1,4 @@
-https://evamodelo-xiscomesquida.vercel.app/
+https://evamodelo.vercel.app/
 
 
 Actualmente con los servidores de OpenAi caídos (err 500)
