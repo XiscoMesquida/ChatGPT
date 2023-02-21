@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face{
+    font-family: 'EVA';
+    src: url('/Users/autoauto/Desktop/CODE/Chatgpt/gptapp/styles/globals.css')
+}
+
+@font-face{
+    font-family: 'EVAS';
+    src: url('/Users/autoauto/Desktop/CODE/Chatgpt/gptapp/Fonts/evasta.ttf')
+}
+
+@layer components {
+    .infoText{
+        @apply p-4 bg-gray-700/50 rounded-lg max-w-[300px]
+    }
+
+    .chatRow{
+        @apply rounded-lg px-5 py-3 text-sm flex items-center justify-center space-x-2
+        hover:bg-gray-700/70 cursor-pointer text-gray-300 transition-all duration-200 ease-out
+    }
+}
